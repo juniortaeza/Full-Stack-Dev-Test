@@ -1,0 +1,39 @@
+.info-card {
+  border: 0.1px solid black;
+  border-radius: 16px;
+  padding: 1rem;
+}
+
+.equipment-list,
+.labor-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.equipment-item,
+.labor-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.equipment-name,
+.labor-name {
+  width: 300px;
+}
+
+.equipment-price,
+.labor-price {
+  white-space: nowrap;
+}
+
+.checklist-row {
+  display: flex;
+  align-items: stretch;
+}
+
+.option-card {
+  flex: 1 1 0;
+  min-width: 0;
+}
