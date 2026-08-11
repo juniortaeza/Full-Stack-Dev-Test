@@ -38,6 +38,15 @@ I left `labor_rates` untouched, I believed that a customer might feel they need 
 
 I ran into issues updating MySQL on my system and authenticating. I also ran into issues listening and serving my backend on a port. I thought about what would make this process easier and more accessible to a client (you!) and thus I incorporated the usage of Docker so all you need to do is have Docker Desktop installed and run one, singular command, as opposed to 1) installing mysql, 2) connecting a mysql account, 3) creating a databse called hvac_service, installing, 4) downloading React and Go packages and dependencies, and so on.
 
+## If I had more time
+
+If I had more time, namely if this was a Sprint or milestone goal, I would implement:
+
+- Full error handling in both the frontend and backend. Currently error messages display in the command line. Ideally you want them to display on the client-side.
+- Add a comprehensive test suite. Testing is also my strong suit and API tests would be very effective.
+- Implement "New Client" onboarding. Landing page will be similar but creating a POST request API endpoint accordingly would be my next priority.
+- Add more effort into the UI. I thought simplicity is best but a few colors and display work would be great.
+
 ## Tech Stack
 
 - React + Vite
